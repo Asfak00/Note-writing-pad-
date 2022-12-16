@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  /* Notepad main body styling here */
+  .notepadContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #input {
+    width: 75%;
+    height: 33px;
+    font-size: 14px;
+  }
+
+  .welcomeTitle {
+    font-size: 25px;
+  }
+
+  #addNoteButton {
+    width: 30%;
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  /* styling section for dynamic adding note from use  */
+  .noteDiv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* Notepad main body styling here */
+  .notepadContainer {
+    width: 95%;
+    height: 100vh;
+  }
+
+  #input {
+    width: 79%;
+    height: 33px;
+    font-size: 14px;
+  }
+
+  #addNoteButton {
+    width: 30%;
+  }
+
+  /* styling section for dynamic adding note from use  */
+  .noteDiv {
+    width: 100%;
+  }
+}

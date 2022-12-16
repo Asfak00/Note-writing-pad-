@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Keep App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navigation menu start here-->
+
+    <nav>
+      <i class="fa-solid fa-note"></i>
+
+      <ul>
+        <li>Notepad.com</li>
+      </ul>
+    </nav>
+
+    <!-- Navigation menu end here-->
+
+    <!-- Main Notepad body start here -->
+
+    <div class="notepadContainer">
+      <h1 class="welcomeTitle">Welcome to Notepad</h1>
+      <div class="notepad">
+        <input type="text" name="notepad" id="input" />
+        <button id="addNoteButton">Add Note</button>
+      </div>
+
+      <!-- <div class="noteDiv">
+        <div class="main"></div>
+        <textarea class="textArea"></textarea>
+        <button id="edit"><i class="far fa-edit"></i></button>
+        <button id="delete"><i class="fas fa-trash"></i></button>
+      </div> -->
+    </div>
+
+    <!-- Main Notepad body end here -->
+
+    <script src="google.js"></script>
+  </body>
+</html>
